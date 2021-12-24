@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="537548f69a8b451ca975e24e3f81dd37" Name="Diagram1">
+        <EntityTypeShape EntityType="PriyatnyyShelestDBModel.Agents" Width="1.5" PointX="0.75" PointY="3.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="PriyatnyyShelestDBModel.AgentsLog" Width="1.5" PointX="3" PointY="4" IsExpanded="true" />
+        <EntityTypeShape EntityType="PriyatnyyShelestDBModel.Products" Width="1.5" PointX="0.75" PointY="8.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="PriyatnyyShelestDBModel.ProductSale" Width="1.5" PointX="3" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="PriyatnyyShelestDBModel.sysdiagrams" Width="1.5" PointX="5.75" PointY="2" IsExpanded="true" />
+        <EntityTypeShape EntityType="PriyatnyyShelestDBModel.VW_AgentDetails" Width="1.5" PointX="2.75" PointY="7" IsExpanded="true" />
+        <AssociationConnector Association="PriyatnyyShelestDBModel.FK_AgentsLog_Agents" ManuallyRouted="false" />
+        <AssociationConnector Association="PriyatnyyShelestDBModel.FK_ProductSale_Agents" ManuallyRouted="false" />
+        <AssociationConnector Association="PriyatnyyShelestDBModel.FK_ProductSale_Products" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
